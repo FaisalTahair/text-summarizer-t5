@@ -1,6 +1,6 @@
 
 
-\#  Text Summarizer using Fine-Tuned T5
+\# 🧠 Text Summarizer using Fine-Tuned T5
 
 
 
@@ -8,7 +8,7 @@ This project is an end-to-end implementation of a \*\*text summarization system\
 
 
 
-The focus of this project was to go beyond just using pretrained models and actually \*\*fine-tune T5-small on a dialogue dataset\*\*, then deploy it as a working application using \*\*FastAPI\*\* with a simple web interface for real-time interaction.
+The main goal was to go beyond simply using pretrained models by actually \*\*fine-tuning T5-small on a dialogue dataset (SAMSum)\*\* and deploying it as a real-world application using \*\*FastAPI\*\* with a simple web interface.
 
 
 
@@ -16,35 +16,43 @@ The focus of this project was to go beyond just using pretrained models and actu
 
 
 
-\##  Key Highlights
+\## 🚀 Key Highlights
 
 
 
-\- Fine-tuned \*\*T5-small\*\* on dialogue data (SAMSum dataset)
+\- Fine-tuned \*\*T5-small\*\* on dialogue data (SAMSum dataset)  
 
-\- Built a complete \*\*ML pipeline\*\*: preprocessing → training → inference
+\- Built a complete ML pipeline: preprocessing → training → inference  
 
-\- Developed a \*\*FastAPI backend\*\* for serving the model
+\- Developed a \*\*FastAPI backend\*\* for serving the model  
 
-\- Created a \*\*browser-based UI\*\* for real-time summarization
+\- Created a \*\*browser-based UI\*\* for real-time summarization  
 
-\- Implemented text cleaning and tokenization pipeline
-
-
-
-\##  Tech Stack
+\- Implemented text cleaning and tokenization pipeline  
 
 
 
-\- \*\*Python\*\*
+\---
 
-\- \*\*Hugging Face Transformers\*\*
 
-\- \*\*PyTorch\*\*
 
-\- \*\*FastAPI\*\*
+\## 🛠️ Tech Stack
 
-\- \*\*HTML, CSS\*\*
+
+
+\- Python  
+
+\- Hugging Face Transformers  
+
+\- PyTorch  
+
+\- FastAPI  
+
+\- HTML, CSS  
+
+
+
+\---
 
 
 
@@ -56,77 +64,27 @@ The focus of this project was to go beyond just using pretrained models and actu
 
 
 
-
+```bash
 
 git clone https://github.com/FaisalTahair/text-summarizer-t5.git
 
-
-
 cd text-summarizer-t5
 
-
-
-
-
-\---
-
-
-
-\### 2. Install dependencies
-
-
-
-
+2\. Install dependencies
 
 pip install -r requirements.txt
 
-
-
-
-
-\---
-
-
-
-\### 3. Run the FastAPI server
-
-
-
-
+3\. Run the FastAPI server
 
 uvicorn app:app --reload
 
-
-
-
-
-\---
-
-
-
-\### 4. Open in browser
-
-
-
-
+4\. Open in browser
 
 http://localhost:8000/
 
+🧪 Example
 
-
-
-
-\---
-
-
-
-\##  Example
-
-
-
-\### Input
-
-
+Input
 
 Customer: Hi, I received a damaged product.
 
@@ -136,13 +94,13 @@ Customer: Yes, it's 12345.
 
 Agent: Thank you. We will arrange a replacement.
 
-
-
-
-
-\### Output
-
-
+Output
 
 Customer reported a damaged product and the agent arranged a replacement.
+
+🧠 Model Details
+
+Model: T5-small
+
+Fine-tuned on: SAMSum dialogue dataset
 
