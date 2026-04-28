@@ -1,6 +1,6 @@
 
 
-\#  Text Summarizer using Fine-Tuned T5
+\ Text Summarizer using Fine-Tuned T5
 
 
 
@@ -16,7 +16,7 @@ The main goal was to go beyond simply using pretrained models by actually \*\*fi
 
 
 
-\##  Key Highlights
+\#  Key Highlights
 
 
 
