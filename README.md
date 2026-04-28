@@ -8,7 +8,7 @@ This project is an end-to-end implementation of a \*\*text summarization system\
 
 
 
-The main goal was to go beyond simply using pretrained models by actually \*\*fine-tuning T5-small on a dialogue dataset (SAMSum)\*\* and deploying it as a real-world application using \*\*FastAPI\*\* with a simple web interface.
+The main goal was to go beyond simply using pretrained models by actually \*\*fine-tuning T5-small on the SAMSum dialogue dataset\*\* and deploying it using \*\*FastAPI\*\* with a simple web interface for real-time summarization.
 
 
 
