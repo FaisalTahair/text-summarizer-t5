@@ -103,4 +103,7 @@ Customer reported a damaged product and the agent arranged a replacement.
 Model: T5-small
 
 Fine-tuned on: SAMSum dialogue dataset
+```
+## 🖼️ Demo
 
+![App Screenshot](screenshot.png)
