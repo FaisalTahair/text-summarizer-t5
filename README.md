@@ -1,6 +1,6 @@
 
 
-\# 🧠 Text Summarizer using Fine-Tuned T5
+\#  Text Summarizer using Fine-Tuned T5
 
 
 
@@ -16,7 +16,7 @@ The main goal was to go beyond simply using pretrained models by actually \*\*fi
 
 
 
-\## 🚀 Key Highlights
+\##  Key Highlights
 
 
 
@@ -36,7 +36,7 @@ The main goal was to go beyond simply using pretrained models by actually \*\*fi
 
 
 
-\## 🛠️ Tech Stack
+\## Tech Stack
 
 
 
@@ -56,7 +56,7 @@ The main goal was to go beyond simply using pretrained models by actually \*\*fi
 
 
 
-\## ⚙️ How to Run the Project
+\##  How to Run the Project
 
 
 
@@ -82,7 +82,7 @@ uvicorn app:app --reload
 
 http://localhost:8000/
 
-🧪 Example
+ Example
 
 Input
 
@@ -98,7 +98,7 @@ Output
 
 Customer reported a damaged product and the agent arranged a replacement.
 
-🧠 Model Details
+ Model Details
 
 Model: T5-small
 
